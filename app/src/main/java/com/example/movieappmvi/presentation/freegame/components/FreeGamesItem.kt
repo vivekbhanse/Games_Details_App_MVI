@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.movieappmvi.domain.model.FreeGames
 
+
 @Composable
 fun FreeGamesItem(modifier: Modifier, games: FreeGames) {
     Column(modifier = Modifier.padding(16.dp)) {

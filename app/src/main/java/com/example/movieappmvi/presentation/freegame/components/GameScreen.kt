@@ -11,6 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.example.movieappmvi.presentation.freegame.states.FreeGameState
 
+
 @Composable
 fun GameScreen(freeGameState: FreeGameState, modifier: Modifier) {
     if (freeGameState.freeGames?.isNotEmpty()!!) {
